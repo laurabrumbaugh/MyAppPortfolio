@@ -8,6 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * This is the class for project0.
+ */
 public class MyAppPortfolio extends AppCompatActivity {
 
     @Override
