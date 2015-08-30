@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50sp"
+    android:layout_marginEnd="50sp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/subtitle"
+        android:id="@+id/subtitle"
+        style="@style/TextViewStyle"/>
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/spotify_click"
+        android:text="@string/spotify"
+        android:onClick="sendSpotify"
+        style="@style/ButtonStyle" />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/superduo_click"
+        android:text="@string/superduo"
+        android:onClick="sendSuperDuo"
+        style="@style/ButtonStyle" />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bigger_click"
+        android:text="@string/bigger"
+        android:onClick="sendBigger"
+        style="@style/ButtonStyle" />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reader_click"
+        android:text="@string/reader"
+        android:onClick="sendReader"
+        style="@style/ButtonStyle" />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/capstone_click"
+        android:text="@string/capstone"
+        android:onClick="sendCapstone"
+         style="@style/CapstoneButtonStyle" />
+</LinearLayout>
